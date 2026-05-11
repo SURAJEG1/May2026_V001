@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="may05_TestNG.MouseHoverAndKeyBoardActions">
+      <class name="may06_TestNG.Iframe">
         <methods>
+          <include name="ifram"/>
+          <include name="windowHandles"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="windowHandles"/>
         </methods>
-      </class> <!-- may05_TestNG.MouseHoverAndKeyBoardActions -->
+      </class> <!-- may06_TestNG.Iframe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

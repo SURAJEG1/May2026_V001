@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-05T16:24:06 IST" name="Default suite" finished-at="2026-05-05T16:25:07 IST" duration-ms="61126">
+  <suite started-at="2026-05-11T14:21:46 IST" name="Default suite" finished-at="2026-05-11T14:22:07 IST" duration-ms="21275">
     <groups>
     </groups>
-    <test started-at="2026-05-05T16:24:06 IST" name="Default test" finished-at="2026-05-05T16:25:07 IST" duration-ms="61126">
-      <class name="may05_TestNG.HyperLinkCountAndPrint">
-        <test-method is-config="true" signature="setup()[pri:0, instance:may05_TestNG.HyperLinkCountAndPrint@7d7758be]" started-at="2026-05-05T16:24:06 IST" name="setup" finished-at="2026-05-05T16:24:13 IST" duration-ms="6119" status="PASS">
+    <test started-at="2026-05-11T14:21:46 IST" name="Default test" finished-at="2026-05-11T14:22:07 IST" duration-ms="21275">
+      <class name="may06_TestNG.Iframe">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may06_TestNG.Iframe@2f01783a]" started-at="2026-05-11T14:21:46 IST" name="setup" finished-at="2026-05-11T14:22:00 IST" duration-ms="13833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="hyperLinkCountAndPrint()[pri:0, instance:may05_TestNG.HyperLinkCountAndPrint@7d7758be]" started-at="2026-05-05T16:24:13 IST" name="hyperLinkCountAndPrint" finished-at="2026-05-05T16:25:07 IST" duration-ms="53929" status="PASS">
+        <test-method signature="ifram()[pri:1, instance:may06_TestNG.Iframe@2f01783a]" started-at="2026-05-11T14:22:00 IST" name="ifram" finished-at="2026-05-11T14:22:01 IST" duration-ms="1070" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hyperLinkCountAndPrint -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may05_TestNG.HyperLinkCountAndPrint@7d7758be]" started-at="2026-05-05T16:25:07 IST" name="tearDown" finished-at="2026-05-05T16:25:07 IST" duration-ms="806" status="PASS">
+        </test-method> <!-- ifram -->
+        <test-method signature="windowHandles()[pri:2, instance:may06_TestNG.Iframe@2f01783a]" started-at="2026-05-11T14:22:01 IST" name="windowHandles" finished-at="2026-05-11T14:22:06 IST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may06_TestNG.Iframe@2f01783a]" started-at="2026-05-11T14:22:06 IST" name="tearDown" finished-at="2026-05-11T14:22:07 IST" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- may05_TestNG.HyperLinkCountAndPrint -->
+      </class> <!-- may06_TestNG.Iframe -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
