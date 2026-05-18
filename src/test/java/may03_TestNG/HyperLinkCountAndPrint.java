@@ -1,0 +1,75 @@
+package may03_TestNG;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.*;
+
+public class HyperLinkCountAndPrint {
+	
+	WebDriver driver;
+	@BeforeClass
+	public void setup()
+	{
+		ChromeOptions co = new ChromeOptions();
+		co.addArguments("--incognito");
+		driver = new ChromeDriver(co);
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.in");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	}
+	
+	
+	@Test
+	public void getHyperLinkCountAndPrint() throws InterruptedException
+	{
+		List<WebElement> linkList = driver.findElements(By.tagName("a"));
+		Thread.sleep(1000);
+		int count = linkList.size();
+		System.out.println(count);
+		Thread.sleep(1000);
+		for(WebElement element : linkList) 
+		{
+			System.out.println(element.getText());
+		}
+		
+	}	
+	
+	
+	
+	
+	@AfterClass
+	public void tearDown() 
+	{
+		driver.close();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,4 +1,4 @@
-package may08_TestNG;
+package may17_TestNG;
 
 import java.time.Duration;
 import java.util.List;
@@ -12,26 +12,30 @@ import org.testng.annotations.*;
 
 public class HyperLinkCountAndPrint {
 	
+	
 	WebDriver driver;
 	@BeforeClass
 	public void setup() 
 	{
 		ChromeOptions co = new ChromeOptions();
-		co.addArguments("--incognito --start-Maximized");
+		co.addArguments("--incognito");
 		driver = new ChromeDriver(co);
-		driver.get("https://www.amazon.in");
+		driver.manage().window().maximize();
+		driver.get("https://www.rediff.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
 	
+	
 	@Test
-	public void hyperLinkPrintAndCount() throws InterruptedException 
+	public void getHyperLink() throws InterruptedException 
 	{
-		List<WebElement> links = driver.findElements(By.tagName("a"));
-		int count = links.size();
+		List<WebElement> linkList = driver.findElements(By.tagName("a"));
 		Thread.sleep(1000);
+		int count = linkList.size();
 		System.out.println(count);
-		for(WebElement element:links) 
+		Thread.sleep(1000);
+		for(WebElement element : linkList) 
 		{
 			System.out.println(element.getText());
 		}
@@ -46,6 +50,19 @@ public class HyperLinkCountAndPrint {
 	{
 		driver.close();
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

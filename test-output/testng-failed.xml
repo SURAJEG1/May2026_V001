@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="may06_TestNG.Iframe">
+      <class name="may17_TestNG.Iframe">
         <methods>
-          <include name="ifram"/>
           <include name="windowHandles"/>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- may06_TestNG.Iframe -->
+      </class> <!-- may17_TestNG.Iframe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
