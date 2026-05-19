@@ -1,0 +1,1 @@
+{"uuid":"2ba3d397-4dfc-47bc-8b26-5f31210bbe5f","name":"may19_TestNG.Tc003_StaticDropdown","children":["a0b3c84d-46fd-4d13-aa9a-b6a55ffbc94e"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1779189900207,"stop":1779189903142}],"afters":[],"start":1779189900132,"stop":1779189911301}

@@ -1,33 +1,367 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-18T16:44:56 IST" name="Default suite" finished-at="2026-05-18T16:45:08 IST" duration-ms="12265">
+  <suite started-at="2026-05-19T18:03:04 IST" name="Suite" finished-at="2026-05-19T18:05:16 IST" duration-ms="131880">
     <groups>
     </groups>
-    <test started-at="2026-05-18T16:44:56 IST" name="Default test" finished-at="2026-05-18T16:45:08 IST" duration-ms="12265">
-      <class name="may17_TestNG.MouseHoverAndKeyboardActions">
-        <test-method is-config="true" signature="setup()[pri:0, instance:may17_TestNG.MouseHoverAndKeyboardActions@5f9edf14]" started-at="2026-05-18T16:44:56 IST" name="setup" finished-at="2026-05-18T16:45:04 IST" duration-ms="7353" status="PASS">
+    <test started-at="2026-05-19T18:03:04 IST" name="DynamicDropdown" finished-at="2026-05-19T18:03:43 IST" duration-ms="38538">
+      <class name="may19_TestNG.Tc002_AmazonDynamicSearch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc002_AmazonDynamicSearch@18317edc]" started-at="2026-05-19T18:03:25 IST" name="setup" finished-at="2026-05-19T18:03:27 IST" duration-ms="1626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="mouseHoverRightClickAction()[pri:1, instance:may17_TestNG.MouseHoverAndKeyboardActions@5f9edf14]" started-at="2026-05-18T16:45:04 IST" name="mouseHoverRightClickAction" finished-at="2026-05-18T16:45:04 IST" duration-ms="429" status="PASS">
+        <test-method signature="example2_DynamicSearchAndListDropdown()[pri:0, instance:may19_TestNG.Tc002_AmazonDynamicSearch@18317edc]" started-at="2026-05-19T18:03:27 IST" name="example2_DynamicSearchAndListDropdown" finished-at="2026-05-19T18:03:43 IST" duration-ms="16306" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseHoverRightClickAction -->
-        <test-method signature="robotClass()[pri:2, instance:may17_TestNG.MouseHoverAndKeyboardActions@5f9edf14]" started-at="2026-05-18T16:45:04 IST" name="robotClass" finished-at="2026-05-18T16:45:06 IST" duration-ms="1486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- robotClass -->
-        <test-method signature="windowHandles()[pri:3, instance:may17_TestNG.MouseHoverAndKeyboardActions@5f9edf14]" started-at="2026-05-18T16:45:06 IST" name="windowHandles" finished-at="2026-05-18T16:45:08 IST" duration-ms="1975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windowHandles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may17_TestNG.MouseHoverAndKeyboardActions@5f9edf14]" started-at="2026-05-18T16:45:08 IST" name="tearDown" finished-at="2026-05-18T16:45:08 IST" duration-ms="774" status="PASS">
+        </test-method> <!-- example2_DynamicSearchAndListDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc002_AmazonDynamicSearch@18317edc]" started-at="2026-05-19T18:03:43 IST" name="tearDown" finished-at="2026-05-19T18:03:43 IST" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60379}, goog:processID: 13404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60379/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60379}, goog:processID: 13404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60379/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
+at may19_TestNG.BaseClass.tearDown(BaseClass.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- may17_TestNG.MouseHoverAndKeyboardActions -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- may19_TestNG.Tc002_AmazonDynamicSearch -->
+      <class name="may19_TestNG.Tc001_DynamicSearchAndListDropdown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc001_DynamicSearchAndListDropdown@22f59fa]" started-at="2026-05-19T18:03:04 IST" name="setup" finished-at="2026-05-19T18:03:07 IST" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="example1_DynamicSearchAndListDropdown()[pri:0, instance:may19_TestNG.Tc001_DynamicSearchAndListDropdown@22f59fa]" started-at="2026-05-19T18:03:07 IST" name="example1_DynamicSearchAndListDropdown" finished-at="2026-05-19T18:03:25 IST" duration-ms="17617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example1_DynamicSearchAndListDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc001_DynamicSearchAndListDropdown@22f59fa]" started-at="2026-05-19T18:03:25 IST" name="tearDown" finished-at="2026-05-19T18:03:25 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57988}, goog:processID: 504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57988/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57988}, goog:processID: 504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57988/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
+at may19_TestNG.BaseClass.tearDown(BaseClass.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc001_DynamicSearchAndListDropdown -->
+    </test> <!-- DynamicDropdown -->
+    <test started-at="2026-05-19T18:03:43 IST" name="StaticDropdown" finished-at="2026-05-19T18:04:18 IST" duration-ms="34692">
+      <class name="may19_TestNG.Tc004_StaticDropdownSendKeysActions">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc004_StaticDropdownSendKeysActions@19b89d4]" started-at="2026-05-19T18:03:55 IST" name="setup" finished-at="2026-05-19T18:03:57 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="staticDropdown_Example3()[pri:0, instance:may19_TestNG.Tc004_StaticDropdownSendKeysActions@19b89d4]" started-at="2026-05-19T18:03:57 IST" name="staticDropdown_Example3" finished-at="2026-05-19T18:04:06 IST" duration-ms="9321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdown_Example3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc004_StaticDropdownSendKeysActions@19b89d4]" started-at="2026-05-19T18:04:06 IST" name="tearDown" finished-at="2026-05-19T18:04:06 IST" duration-ms="94" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baaf79ea90b045a21a5ac38c47eecd1b, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57174}, goog:processID: 8352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57174/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baaf79ea90b045a21a5ac38c47eecd1b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baaf79ea90b045a21a5ac38c47eecd1b, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57174}, goog:processID: 8352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57174/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baaf79ea90b045a21a5ac38c47eecd1b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
+at may19_TestNG.BaseClass.tearDown(BaseClass.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc004_StaticDropdownSendKeysActions -->
+      <class name="may19_TestNG.Tc005_StaticDropdownValue">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc005_StaticDropdownValue@4bbf6d0e]" started-at="2026-05-19T18:04:06 IST" name="setup" finished-at="2026-05-19T18:04:08 IST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="staticDropdown_Example2()[pri:0, instance:may19_TestNG.Tc005_StaticDropdownValue@4bbf6d0e]" started-at="2026-05-19T18:04:08 IST" name="staticDropdown_Example2" finished-at="2026-05-19T18:04:18 IST" duration-ms="9246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdown_Example2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc005_StaticDropdownValue@4bbf6d0e]" started-at="2026-05-19T18:04:18 IST" name="tearDown" finished-at="2026-05-19T18:04:18 IST" duration-ms="125" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8916f6917296fb02848f3dfea114c9a9, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55039}, goog:processID: 10980, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55039/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8916f6917296fb02848f3dfea114c9a9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8916f6917296fb02848f3dfea114c9a9, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55039}, goog:processID: 10980, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55039/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8916f6917296fb02848f3dfea114c9a9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:417)
+at may19_TestNG.BaseClass.tearDown(BaseClass.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc005_StaticDropdownValue -->
+      <class name="may19_TestNG.Tc003_StaticDropdownIndex">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc003_StaticDropdownIndex@43015c69]" started-at="2026-05-19T18:03:43 IST" name="setup" finished-at="2026-05-19T18:03:45 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="staticDropdown_Example1()[pri:0, instance:may19_TestNG.Tc003_StaticDropdownIndex@43015c69]" started-at="2026-05-19T18:03:45 IST" name="staticDropdown_Example1" finished-at="2026-05-19T18:03:55 IST" duration-ms="10057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdown_Example1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc003_StaticDropdownIndex@43015c69]" started-at="2026-05-19T18:03:55 IST" name="tearDown" finished-at="2026-05-19T18:03:55 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc003_StaticDropdownIndex -->
+    </test> <!-- StaticDropdown -->
+    <test started-at="2026-05-19T18:04:18 IST" name="AmazonHyperLink" finished-at="2026-05-19T18:04:39 IST" duration-ms="21000">
+      <class name="may19_TestNG.Tc006_HyperLinkCountAndPrint">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc006_HyperLinkCountAndPrint@14f232c4]" started-at="2026-05-19T18:04:18 IST" name="setup" finished-at="2026-05-19T18:04:19 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hyperLinkCountAndPrint()[pri:0, instance:may19_TestNG.Tc006_HyperLinkCountAndPrint@14f232c4]" started-at="2026-05-19T18:04:19 IST" name="hyperLinkCountAndPrint" finished-at="2026-05-19T18:04:38 IST" duration-ms="18972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hyperLinkCountAndPrint -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc006_HyperLinkCountAndPrint@14f232c4]" started-at="2026-05-19T18:04:38 IST" name="tearDown" finished-at="2026-05-19T18:04:39 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc006_HyperLinkCountAndPrint -->
+    </test> <!-- AmazonHyperLink -->
+    <test started-at="2026-05-19T18:04:39 IST" name="Facebook" finished-at="2026-05-19T18:05:16 IST" duration-ms="37352">
+      <class name="may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction@16c069df]" started-at="2026-05-19T18:04:39 IST" name="setup" finished-at="2026-05-19T18:04:41 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mouseHoverAndKeyboardAction()[pri:1, instance:may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction@16c069df]" started-at="2026-05-19T18:04:41 IST" name="mouseHoverAndKeyboardAction" finished-at="2026-05-19T18:04:51 IST" duration-ms="10279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverAndKeyboardAction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction@16c069df]" started-at="2026-05-19T18:04:51 IST" name="tearDown" finished-at="2026-05-19T18:04:51 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction -->
+      <class name="may19_TestNG.Tc002_FacebookHyperLinkCountAndPrint">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc002_FacebookHyperLinkCountAndPrint@2bec854f]" started-at="2026-05-19T18:04:51 IST" name="setup" finished-at="2026-05-19T18:04:53 IST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebookHyperLink()[pri:0, instance:may19_TestNG.Tc002_FacebookHyperLinkCountAndPrint@2bec854f]" started-at="2026-05-19T18:04:53 IST" name="facebookHyperLink" finished-at="2026-05-19T18:04:58 IST" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookHyperLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc002_FacebookHyperLinkCountAndPrint@2bec854f]" started-at="2026-05-19T18:04:58 IST" name="tearDown" finished-at="2026-05-19T18:04:58 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc002_FacebookHyperLinkCountAndPrint -->
+      <class name="may19_TestNG.Tc006_HyperLinkCountAndPrint">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may19_TestNG.Tc006_HyperLinkCountAndPrint@31edaa7d]" started-at="2026-05-19T18:04:58 IST" name="setup" finished-at="2026-05-19T18:05:00 IST" duration-ms="1896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hyperLinkCountAndPrint()[pri:0, instance:may19_TestNG.Tc006_HyperLinkCountAndPrint@31edaa7d]" started-at="2026-05-19T18:05:00 IST" name="hyperLinkCountAndPrint" finished-at="2026-05-19T18:05:16 IST" duration-ms="15587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hyperLinkCountAndPrint -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may19_TestNG.Tc006_HyperLinkCountAndPrint@31edaa7d]" started-at="2026-05-19T18:05:16 IST" name="tearDown" finished-at="2026-05-19T18:05:16 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- may19_TestNG.Tc006_HyperLinkCountAndPrint -->
+    </test> <!-- Facebook -->
+  </suite> <!-- Suite -->
 </testng-results>

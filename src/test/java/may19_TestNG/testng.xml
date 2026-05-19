@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="may19_TestNG.Listener"></listener>
+</listeners>
+
+  <test thread-count="5" name="DynamicDropdown">
+    <classes>
+      <class name="may19_TestNG.Tc001_DynamicSearchAndListDropdown"/>
+      <class name="may19_TestNG.Tc002_AmazonDynamicSearch"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="StaticDropdown">
+    <classes>
+      <class name="may19_TestNG.Tc003_StaticDropdownIndex"/>
+      <class name="may19_TestNG.Tc004_StaticDropdownSendKeysActions"/>
+      <class name="may19_TestNG.Tc005_StaticDropdownValue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="AmazonHyperLink">
+    <classes>
+      <class name="may19_TestNG.Tc006_HyperLinkCountAndPrint"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Facebook">
+    <classes>
+      <class name="may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction"/>
+      <class name="may19_TestNG.Tc002_FacebookHyperLinkCountAndPrint"/>
+      <class name="may19_TestNG.Tc006_HyperLinkCountAndPrint"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

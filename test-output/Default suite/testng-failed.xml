@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="may17_TestNG.Iframe">
+      <class name="may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction">
         <methods>
-          <include name="windowHandles"/>
-          <include name="setup"/>
+          <include name="robotClassKeyboardActions"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- may17_TestNG.Iframe -->
+      </class> <!-- may19_TestNG.Tc001_FacebookMouseHoverAndRobotClassKeyboardAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

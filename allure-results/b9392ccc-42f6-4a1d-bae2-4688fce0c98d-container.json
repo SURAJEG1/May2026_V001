@@ -1,0 +1,1 @@
+{"uuid":"b9392ccc-42f6-4a1d-bae2-4688fce0c98d","name":"may19_TestNG.Tc002_DynamicSearch","children":["a387a9b9-2c5b-4c48-b65d-a7bb5b969d7f"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1779185859512,"stop":1779185861683}],"afters":[],"start":1779185836976,"stop":1779185879321}
