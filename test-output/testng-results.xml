@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-27T01:02:13 IST" name="Default suite" finished-at="2026-05-27T01:02:24 IST" duration-ms="10862">
+  <suite started-at="2026-05-29T22:45:32 IST" name="Default suite" finished-at="2026-05-29T22:45:57 IST" duration-ms="25122">
     <groups>
     </groups>
-    <test started-at="2026-05-27T01:02:13 IST" name="Default test" finished-at="2026-05-27T01:02:24 IST" duration-ms="10862">
-      <class name="may21_TestNG.MouseHoverAndKeyboardAction">
-        <test-method is-config="true" signature="setup()[pri:0, instance:may21_TestNG.MouseHoverAndKeyboardAction@5f9edf14]" started-at="2026-05-27T01:02:13 IST" name="setup" finished-at="2026-05-27T01:02:19 IST" duration-ms="6287" status="PASS">
+    <test started-at="2026-05-29T22:45:32 IST" name="Default test" finished-at="2026-05-29T22:45:57 IST" duration-ms="25122">
+      <class name="may22_TestNG.Iframe">
+        <test-method is-config="true" signature="setup()[pri:0, instance:may22_TestNG.Iframe@74287ea3]" started-at="2026-05-29T22:45:32 IST" name="setup" finished-at="2026-05-29T22:45:45 IST" duration-ms="12952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="mouseHoverActionOnInstagram()[pri:1, instance:may21_TestNG.MouseHoverAndKeyboardAction@5f9edf14]" started-at="2026-05-27T01:02:20 IST" name="mouseHoverActionOnInstagram" finished-at="2026-05-27T01:02:20 IST" duration-ms="651" status="PASS">
+        <test-method signature="iframeHandles()[pri:0, instance:may22_TestNG.Iframe@74287ea3]" started-at="2026-05-29T22:45:45 IST" name="iframeHandles" finished-at="2026-05-29T22:45:56 IST" duration-ms="10896" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseHoverActionOnInstagram -->
-        <test-method signature="RobotClass()[pri:2, instance:may21_TestNG.MouseHoverAndKeyboardAction@5f9edf14]" started-at="2026-05-27T01:02:20 IST" name="RobotClass" finished-at="2026-05-27T01:02:21 IST" duration-ms="1120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RobotClass -->
-        <test-method signature="windowHandles()[pri:3, instance:may21_TestNG.MouseHoverAndKeyboardAction@5f9edf14]" started-at="2026-05-27T01:02:21 IST" name="windowHandles" finished-at="2026-05-27T01:02:23 IST" duration-ms="1957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windowHandles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may21_TestNG.MouseHoverAndKeyboardAction@5f9edf14]" started-at="2026-05-27T01:02:23 IST" name="tearDown" finished-at="2026-05-27T01:02:24 IST" duration-ms="591" status="PASS">
+        </test-method> <!-- iframeHandles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may22_TestNG.Iframe@74287ea3]" started-at="2026-05-29T22:45:57 IST" name="tearDown" finished-at="2026-05-29T22:45:57 IST" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- may21_TestNG.MouseHoverAndKeyboardAction -->
+      </class> <!-- may22_TestNG.Iframe -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
